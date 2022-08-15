@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<title>Welcome To My Website</title>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links" id="navlinks">
+			<i class="fa fa-close" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="courses.html">COURSES</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		
+	<h1>About us</h1>
+	
+</section>
+
+<!-- --------------About us content---------------- -->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>We are World's Best University</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="courses.html" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="img/about.jpg">
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+<!-- --------------Footer---------------- -->
+<section class="footer">
+	<h4>About us</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+		<i class="fa fa-twitter"></i>
+	</div>
+
+	<p>Made with <i class="fa fa-heart-o"></i> by Neha Kataria.</p>
+</section>
+
+
+
+
+
+
+
+
+
+<!----------javascript for toggle menu------->
+<script>
+	var	navLinks = document.getElementById("navlinks");
+	function showmenu() {
+		navLinks.style.right = "0";
+	}
+	function hidemenu() {
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>
